@@ -1,0 +1,272 @@
+/*******************************************************
+    Template Name    : Crypto - ICO & Cryptocurrency Bitcoin Landing Page Template
+    Author           : Cute Themes
+    Version          : 1.0
+    Created          : 2021
+    File Description : Main Reaposive file of the template
+*******************************************************/
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .home-area .home-content {
+        padding-top: 80px;
+    }
+    .home-area .home-content h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-b.navbar-trans .nav-item,
+    .navbar-b.navbar-reduce .nav-item {
+        padding-right: 0;
+    }
+    #navbarDefault {
+        width: 100%;
+        height: 250px;
+        overflow-y: scroll;
+    }
+    .home-area .home-content {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .home-area .home-content h1 {
+        font-size: 35px;
+    }
+    .home-area {
+        padding-top: 130px;
+        padding-bottom: 40px;
+    }
+    .about-image {
+        margin-top: 35px;
+    }
+    .token-image {
+        margin-top: 35px;
+    }
+    .h-border {
+        margin-top: 215px;
+    }
+    .single-counter {
+        padding: 15px 0;
+    }
+    .download-image {
+        margin-top: 35px;
+    }
+    .footer-about {
+        margin-top: 35px;
+    }
+    .footer-top-wrapper {
+        padding-top: 70px;
+    }
+    .footer-list {
+        padding-left: 0;
+        margin-top: 35px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar-b .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-b .nav-item:last-child {
+        margin-bottom: 0px;
+    }
+    #navbarDefault {
+        width: 100%;
+        height: 250px;
+        overflow-y: scroll;
+    }
+    .home-area {
+        padding-top: 100px;
+    }
+    .home-area .home-content {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .home-area .home-content h1 {
+        font-size: 35px;
+    }
+    .home-area .home-content p {
+        font-size: 14px;
+    }
+    .about-image {
+        margin-top: 35px;
+    }
+    .token-image {
+        margin-top: 35px;
+    }
+    .single-counter {
+        padding: 15px 0;
+    }
+    .download-image {
+        margin-top: 35px;
+    }
+    .footer-about {
+        padding-right: 0;
+    }
+    .footer-list.newsletter-box {
+        margin-left: 0;
+    }
+    .footer-list {
+        padding-left: 0;
+        margin-top: 35px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .small-title {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar-b .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-b .nav-item:last-child {
+        margin-bottom: 0px;
+    }
+    .home-area {
+        padding-top: 150px;
+    }
+    .home-area .home-content {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .home-area .home-content h1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    .home-area .home-content p {
+        font-size: 14px;
+    }
+    .about-content h2 {
+        font-size: 30px;
+    }
+    .about-image {
+        margin-top: 35px;
+    }
+    .token-image {
+        margin-top: 35px;
+    }
+    .single-counter {
+        padding: 15px 0;
+    }
+    .download-content h2 {
+        font-size: 30px;
+    }
+    .download-content .download-btn .app-link-btn-1 {
+        margin-right: 3px;
+    }
+    .download-image {
+        margin-top: 35px;
+    }
+    .footer-about {
+        padding-right: 0;
+    }
+    .footer-list.newsletter-box {
+        margin-left: 0;
+    }
+    .footer-list {
+        padding-left: 0;
+        margin-top: 35px;
+        text-align: left;
+    }
+    .h-border {
+        margin-top: 48px;
+    }
+    .roadmap-slider .owl-item:nth-child(2n+0) .main-box .roadmap-detail-box {
+        position: relative;
+        bottom: auto;
+    }
+    .roadmap-slider .owl-item:nth-child(2n+0) .main-box .roadmap-single-box {
+        padding-top: 0px;
+        margin-top: -12px;
+    }
+    .roadmap-slider .owl-item:nth-child(2n+0) .main-box .date-title {
+        top: auto;
+    }
+    .roadmap-slider .owl-item:nth-child(2n+0) .main-box .roadmap-chart {
+        transform: rotate(0deg);
+        margin-top: 0px;
+        display: inline-block;
+    }
+    .roadmap-slider .owl-item:nth-child(2n+0) .main-box .v-row {
+        margin-left: -2px;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .navbar-nav {
+        margin-top: 15px;
+    }
+    .navbar-b .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-b .nav-item:last-child {
+        margin-bottom: 0px;
+    }
+    #navbarDefault {
+        width: 100%;
+        height: auto;
+        overflow-y: scroll;
+    }
+    .home-area {
+        padding-top: 150px;
+    }
+    .home-area .home-content {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .home-area .home-content h1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    .home-area .home-content p {
+        font-size: 14px;
+    }
+    .about-content h2 {
+        font-size: 27px;
+    }
+    .about-image {
+        margin-top: 35px;
+    }
+    .token-image {
+        margin-top: 35px;
+    }
+    .single-counter {
+        padding: 15px 0;
+    }
+    .download-content h2 {
+        font-size: 27px;
+    }
+    .download-content .download-btn .app-link-btn-1 {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    .download-image {
+        margin-top: 35px;
+    }
+    .footer-about {
+        padding-right: 0;
+    }
+    .footer-list.newsletter-box {
+        margin-left: 0;
+    }
+    .footer-list {
+        padding-left: 0;
+        margin-top: 35px;
+        text-align: left;
+    }
+}
