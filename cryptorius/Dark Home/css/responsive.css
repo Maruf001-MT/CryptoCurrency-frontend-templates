@@ -1,0 +1,971 @@
+@media(max-width: 1499px) {
+    /*---------- HOME PAGE ------------*/
+    .home-banner {
+        padding-top: 280px;
+        padding-bottom: 180px;
+    }
+    .banner-img {
+        transform: scale(1);
+    }
+    .works .patter {
+        left: 0px;
+    }
+    .works .patter-2 {
+        bottom: 0px;
+        left: unset;
+        right: 0px;
+    }
+    .features .patter {
+        left: -30px;
+    }
+    .features .patter-2 {
+        left: unset;
+        right: -30px;
+    }
+    .faq .patter {
+        left: -30px;
+    }
+    .faq .patter-2 {
+        left: unset;
+        right: -30px;
+    }
+}
+
+@media(max-width: 1250px) {
+    .container {
+        max-width: 96%;
+    }
+    /*---------- HOME PAGE ------------*/
+    .features .patter {
+        left: 0px;
+    }
+    .features .patter-2 {
+        left: unset;
+        right: 0px;
+    }
+    .token-sale .patter {
+        top: 0px;
+        left: 0px;
+    }
+    .token-sale .patter-2 {
+        top: unset;
+        left: unset;
+        bottom: 0px;
+        right: 0px;
+    }
+    .our-blog .patter {
+        max-width: 350px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .button {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .pt-100 {
+        padding-top: 80px;
+    }
+    .pb-100 {
+        padding-bottom: 80px;
+    }
+    .ptb-100 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .mt-100 {
+        margin-top: 80px;
+    }
+    .mb-100 {
+        margin-bottom: 80px;
+    }
+    .mtb-100 {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .page-banner {
+        padding-top: 150px;
+    }
+    h1 {
+        font-size: 44px;
+        line-height: 58px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    h3 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*---------- HEADER STYLE ------------*/
+    .nav-menu {
+        width: calc(100% - 90px);
+    }
+    .nav-menu>ul>li>a {
+        padding: 30px 0px;
+    }
+    .sticky .nav-menu>ul>li>a {
+        padding: 20px 0px;
+    }
+    .login-box .button {
+        padding: 10px 20px;
+    }
+    /*---------- HOME PAGE ------------*/
+    .home-banner {
+        padding-top: 250px;
+        padding-bottom: 150px;
+    }
+    .work-content .section-sub {
+        max-width: 300px;
+    }
+    .member-post {
+        font-size: 14px;
+        padding-top: 3px;
+        padding-bottom: 10px;
+    }
+    .team-img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+    .team-box {
+        padding: 30px 20px;
+    }
+    .faq-title {
+        font-size: 16px;
+    }
+    .nav-tabs .nav-link {
+        padding: 10px 25px;
+    }
+    .copyright {
+        padding: 20px 0px;
+    }
+    /*---------- CONTACT PAGE ------------*/
+    .map-location {
+        height: 400px;
+    }
+    /*---------- TOKEN SALE PAGE ------------*/
+    .token-info-title {
+        font-size: 22px;
+    }
+    .coins-counter-loop li span {
+        font-size: 38px;
+    }
+    .distribution-title {
+        font-size: 22px;
+    }
+}
+
+@media(min-width: 1025px) {
+    /*---------- HEADER STYLE ------------*/
+    .nav-menu>ul>li.active>a:before,
+    .nav-menu>ul>li:hover>a:before {
+        left: 0;
+    }
+    /*---------- Drop Down ------------*/
+    .nav-menu>ul ul {
+        position: absolute;
+        top: calc(100% + 20px);
+        left: 0;
+        min-width: 250px;
+        padding: 15px 0px;
+        text-align: left;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 400ms ease;
+    }
+    .sticky .nav-menu>ul ul {
+        border-top-right-radius: 0;
+    }
+    .nav-menu>ul ul li a {
+        display: block;
+        padding: 8px 15px;
+        position: relative;
+        padding-left: 45px;
+        line-height: 23px;
+    }
+    .nav-menu>ul ul li a:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 24px;
+        width: 10px;
+        height: 2px;
+        transform: translateY(-50%);
+        transition: all 400ms ease;
+    }
+    .nav-menu>ul ul:before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 12px 12px 12px;
+        position: absolute;
+        top: -12px;
+        left: 0px;
+        transition: all 400ms ease;
+    }
+    .nav-menu>ul ul li.active a,
+    .nav-menu>ul ul li:hover a {
+        padding-left: 55px;
+    }
+    .nav-menu>ul ul li.active a:before,
+    .nav-menu>ul ul li:hover a:before {
+        width: 20px;
+    }
+    .nav-menu>ul li:hover ul {
+        top: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container {
+        max-width: calc(100% - 60px);
+    }
+    .section-heading {
+        padding-bottom: 30px;
+    }
+    .sub-title {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .section-heading p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .title {
+        padding-bottom: 10px;
+    }
+    .pt-100 {
+        padding-top: 60px;
+    }
+    .pb-100 {
+        padding-bottom: 60px;
+    }
+    .ptb-100 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .mt-100 {
+        margin-top: 60px;
+    }
+    .mb-100 {
+        margin-bottom: 60px;
+    }
+    .mtb-100 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .page-banner {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+    h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    /*---------- HEADER STYLE ------------*/
+    .header {
+        padding: 15px 0px;
+    }
+    .logo img {
+        max-width: 170px;
+    }
+    .main-menu {
+        position: fixed;
+        top: 59px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 59px);
+        display: none;
+        padding: 0px 45px;
+        border-top: 1px solid;
+        overflow: auto;
+    }
+    .nav-menu {
+        width: 100%;
+        text-align: left !important;
+    }
+    .nav-menu>ul {
+        padding-right: 0;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .nav-menu>ul>li {
+        display: block;
+        margin: 0;
+    }
+    .nav-menu>ul>li>a {
+        padding: 15px 0px;
+        font-size: 16px;
+    }
+    .sticky .nav-menu>ul>li>a,
+    .nav-menu>ul>li>a {
+        padding: 10px 0px;
+    }
+    .nav-menu>ul ul {
+        display: none;
+    }
+    .login-box .button {
+        padding: 10px 0px;
+        background: transparent;
+        font-weight: 500;
+    }
+    .nav-menu>ul ul {
+        display: none;
+        background: transparent;
+        padding-left: 20px;
+    }
+    .nav-menu>ul ul li a {
+        display: block;
+        line-height: 22px;
+        padding: 8px 0px;
+        position: relative;
+        padding-left: 15px;
+        font-size: 16px;
+    }
+    .nav-menu>ul ul li a:before {
+        content: "";
+        width: 5px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .menu-toggle {
+        width: 25px;
+        height: 18px;
+        position: absolute;
+        top: 50%;
+        right: 45px;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+    }
+    .menu-toggle span,
+    .menu-toggle span:before,
+    .menu-toggle span:after {
+        width: 100%;
+        height: 2px;
+        display: block;
+        transition: all 400ms ease;
+    }
+    .menu-toggle span:before,
+    .menu-toggle span:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .menu-toggle span:after {
+        top: unset;
+        bottom: 0;
+        left: 0;
+    }
+    .menu-toggle.active span:before {
+        transform: rotate(-45deg);
+        top: 8px;
+    }
+    .menu-toggle.active span:after {
+        transform: rotate(45deg);
+        top: 8px;
+    }
+    .nav-menu>ul>li.menu-dropdwon>a:before,
+    .nav-menu>ul>li.menu-dropdwon>a:after {
+        content: "";
+        position: absolute;
+        border: 0;
+        width: 14px;
+        height: 2px;
+        top: 50%;
+        right: 0;
+        transform: unset;
+        left: unset;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(-50%);
+        transition: all 400ms ease;
+    }
+    .nav-menu>ul>li.menu-dropdwon>a:after {
+        right: 6px;
+        width: 2px;
+        height: 14px;
+    }
+    .nav-menu>ul>li.menu-dropdwon>a.active:after {
+        transform: translateY(-50%) rotate(90deg);
+    }
+    /*---------- HOME PAGE ------------*/
+    .home-banner {
+        padding-top: 140px;
+        padding-bottom: 80px;
+    }
+    .home-banner:before {
+        content: unset;
+    }
+    .banner-content {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .banner-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .banner-img {
+        transform: unset;
+        margin: 0 auto;
+    }
+    .work-content .section-sub {
+        max-width: 100%;
+        padding-bottom: 15px;
+    }
+    .work-content {
+        padding-right: 0px;
+        padding-bottom: 35px;
+    }
+    .pattern-bg {
+        display: none;
+    }
+    .feature-box .box-inner {
+        padding: 20px 20px;
+    }
+    .feature-icon {
+        margin-bottom: 15px;
+    }
+    .feature-title {
+        margin-bottom: 13px;
+    }
+    .team-box {
+        margin: 15px 0px;
+        padding: 20px 15px;
+    }
+    .team-img {
+        width: 135px;
+        height: 135px;
+    }
+    .token-details {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+    .token-title {
+        padding-bottom: 10px;
+    }
+    .app-description {
+        padding-bottom: 30px;
+    }
+    .faq-img {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .faq-img img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .faq-content .nav {
+        justify-content: center;
+    }
+    /*---------- BLOG LIST PAGE ------------*/
+    .blog-list-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    /*---------- ROAD MAP PAGE ------------*/
+    .vertical-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .vertical-icon img {
+        max-width: 20px;
+    }
+    .vertical-content {
+        padding: 15px 15px;
+        max-width: 300px;
+    }
+    .vertical-content:before {
+        left: calc(50% + 20px);
+        width: calc(50% - 320px);
+    }
+    .vertical-box:nth-child(odd) .vertical-content:before {
+        left: calc(0% + 300px);
+    }
+    .vertical-box {
+        margin-bottom: 60px;
+    }
+    /*---------- FOOTER STYLE ------------*/
+    .contact-link li a {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contact-link li {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    form.get-touch {
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 991px) {
+    .order-t-2 {
+        order: 2;
+    }
+    .order-t-1 {
+        order: 1;
+    }
+    /*---------- HOME PAGE ------------*/
+    .team-box-main:nth-child(4n + 4) {
+        animation-delay: unset;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .banner-img {
+        text-align: center;
+        padding-top: 30px;
+    }
+    /*---------- ABOUT PAGE ------------*/
+    .mission-content {
+        padding-top: 30px;
+    }
+    /*---------- BLOG LIST PAGE ------------*/
+    .blog-search {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .blog-category {
+        margin-bottom: 35px;
+    }
+    .trending-news {
+        margin-bottom: 30px;
+    }
+    .blog-tags {
+        margin-bottom: 20px;
+    }
+    .blog-list-box {
+        padding-bottom: 40px;
+    }
+    /*---------- BLOG DETAIL PAGE ------------*/
+    .blog-detail-tag ul li a {
+        padding: 5px 15px;
+    }
+    .blog-detail-social {
+        justify-content: flex-start !important;
+        padding-top: 22px;
+    }
+    /*---------- CONTACT PAGE ------------*/
+    .contact-content {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+    .contact-content ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px -15px;
+    }
+    .contact-content ul li {
+        width: 50%;
+        padding: 10px 15px;
+    }
+    .map-location {
+        height: 300px;
+    }
+    /*---------- FEATURE PAGE ------------*/
+    .choose-content {
+        text-align: center;
+        padding-top: 40px;
+    }
+    /*---------- TOKEN SALE PAGE ------------*/
+    .token-sale-counter {
+        margin-bottom: 40px;
+    }
+    .token-info {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
+    .button {
+        font-size: 14px;
+        padding: 8px 22px;
+    }
+    .owl-dots .owl-dot {
+        width: 10px;
+        height: 10px;
+        margin: 0px 5px;
+    }
+    .owl-dots .owl-dot span {
+        width: 4px;
+        height: 4px;
+    }
+    .order-r-2 {
+        order: 2;
+    }
+    .order-r-1 {
+        order: 1;
+    }
+    .pt-100 {
+        padding-top: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 40px;
+    }
+    .ptb-100 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .mt-100 {
+        margin-top: 40px;
+    }
+    .mb-100 {
+        margin-bottom: 40px;
+    }
+    .mtb-100 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .page-banner {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    .breadcum li {
+        padding: 0px 15px;
+    }
+    .modal-dialog {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /*---------- HEADER STYLE ------------*/
+    .header {
+        width: 100%;
+    }
+    .main-menu {
+        top: 58px;
+        height: calc(100vh - 51px);
+    }
+    .menu-toggle {
+        right: 15px;
+    }
+    /*---------- HOME PAGE ------------*/
+    .main-menu {
+        padding: 0px 15px;
+    }
+    .home-banner {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+    .banner-content p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .banner-img {
+        margin-top: 20px;
+        padding: 0;
+    }
+    .feature-box:nth-child(3n + 2),
+    .feature-box:nth-child(3n + 3) {
+        animation-delay: unset;
+    }
+    .feature-title {
+        font-size: 18px;
+    }
+    .feature-icon {
+        max-width: 35px;
+    }
+    .team-box-main:nth-child(4n + 2),
+    .team-box-main:nth-child(4n + 3),
+    .team-box-main:nth-child(4n + 4) {
+        animation-delay: 0.1s;
+    }
+    .feature-box .box-inner {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .features.ptb-100 {
+        padding-bottom: 10px;
+    }
+    .team-box {
+        margin: 15px 0px;
+        padding: 35px 15px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-boxs {
+        max-width: 465px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blog-boxs .blog-content {
+        padding: 20px 15px;
+    }
+    .blog-slider .owl-dots {
+        padding-top: 10px;
+    }
+    .banner-content .button {
+        margin-top: 25px;
+    }
+    .faq-content .nav li {
+        padding-bottom: 10px;
+    }
+    /*---------- ABOUT PAGE ------------*/
+    .play-icon span {
+        width: 55px;
+        height: 55px;
+    }
+    .play-icon span i {
+        font-size: 22px;
+    }
+    /*---------- BLOG LIST PAGE ------------*/
+    .blog-list-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .blog-list-pagination ul li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .blog-cat-title {
+        font-size: 18px;
+    }
+    .blog-list-box {
+        padding-bottom: 30px;
+    }
+    /*---------- BLOG DETAIL PAGE ------------*/
+    .blog-detail-content blockquote {
+        padding: 20px 20px;
+    }
+    .blog-detail-social {
+        text-align: left !important;
+        margin-top: 0px;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog-detail-tag ul {
+        display: block;
+        padding-left: 0;
+        margin-top: 6px;
+    }
+    .blog-detail-tag {
+        display: block !important;
+    }
+    .blog-detail-tag-social {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .blog-detail-social ul {
+        padding-left: 0px;
+        margin-top: 6px;
+    }
+    .blog-comment-post-singel {
+        padding-bottom: 0px;
+        margin-bottom: 30px;
+    }
+    .blog-comment-box li {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .blog-comment-post-singel .blog-comment-box li {
+        margin-bottom: 20px;
+    }
+    .comment-user {
+        width: 50px;
+    }
+    .blog-comment-content {
+        width: calc(100% - 50px);
+    }
+    .comment-reply {
+        position: unset;
+        margin-top: 10px;
+    }
+    .blog-comment-post {
+        padding-bottom: 20px;
+    }
+    .blog-comment-heading {
+        padding-bottom: 15px;
+    }
+    /*---------- CONTACT PAGE ------------*/
+    .contact-content ul li {
+        width: 100%;
+    }
+    .contact-content ul {
+        padding-top: 0px;
+    }
+    /*---------- ROAD MAP PAGE ------------*/
+    .vertical-roadmap-line:before,
+    .vertical-roadmap-line:after {
+        width: 15px;
+        height: 15px;
+    }
+    .vertical-roadmap-line {
+        left: 20px;
+        transform: unset;
+    }
+    .vertical-roadmap:before {
+        top: 4px;
+        left: 18px;
+        transform: unset;
+        width: 7px;
+        height: 7px;
+    }
+    .vertical-roadmap:after {
+        bottom: 4px;
+        left: 18px;
+        transform: unset;
+        width: 7px;
+        height: 7px;
+    }
+    .vertical-icon {
+        width: 40px;
+        height: 40px;
+        left: 0px;
+        transform: translateY(-50%);
+    }
+    .vertical-icon img {
+        max-width: 20px;
+    }
+    .vertical-content {
+        max-width: calc(100% - 60px);
+    }
+    .vertical-content:before {
+        left: 40px;
+        width: 20px;
+    }
+    .vertical-box:nth-child(odd) .vertical-content {
+        margin-left: auto;
+    }
+    .vertical-box:nth-child(odd) .vertical-content:before {
+        left: 40px;
+    }
+    .vertical-box {
+        margin-bottom: 30px;
+    }
+    .vertical-roadmap {
+        padding: 30px 0px;
+    }
+    /*---------- TOKEN SALE PAGE ------------*/
+    .token-sale-counter {
+        padding: 15px 15px;
+    }
+    .coins-counter-loop li span {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .coins-counter-loop li:before,
+    .coins-counter-loop li:after {
+        width: 3px;
+        height: 3px;
+        top: 8px;
+    }
+    .coins-counter-loop li:after {
+        top: 18px;
+    }
+    .coins-counter-loop li label {
+        font-size: 12px;
+    }
+    .coins-counter-loop {
+        padding-bottom: 20px;
+    }
+    .coins-progress {
+        margin-bottom: 30px;
+    }
+    .currency-card {
+        margin-top: 15px;
+    }
+    .token-info-list li {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 8px 0px;
+    }
+    .token-info-lable {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .token-info-title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .distribution-title {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .token-graph-first {
+        padding-bottom: 50px;
+    }
+    /*---------- 404 PAGE ------------*/
+    .page-404 p {
+        margin-bottom: 20px;
+    }
+    .error-img {
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+    /*---------- FOOTER STYLE ------------*/
+    .contact-link li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    form.get-touch {
+        padding-top: 10px;
+    }
+    .contact-link li a {
+        padding-left: 0;
+    }
+    .form-group {
+        margin-bottom: 15px;
+    }
+    .form-control {
+        padding: 8px 15px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .copyright ul {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
